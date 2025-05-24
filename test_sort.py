@@ -16,6 +16,3 @@ class TestSort(TestCase):
 
     def test_rejected_package(self):
         self.assertEqual(sort(200, 200, 200, 25), "REJECTED")
-
-    def test_bulky_and_heavy_package(self):
-        self.assertEqual(sort(200, 200, 200, 25), "REJECTED")
